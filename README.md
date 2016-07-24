@@ -1,6 +1,6 @@
 # Debug
 
-[![CI Status](http://img.shields.io/travis/Matteo/Debug.svg?style=flat)](https://travis-ci.org/Matteo/Debug)
+[![CI Status](http://img.shields.io/travis/matteocrippa/Debug.svg?style=flat)](https://travis-ci.org/matteocrippa/Debug)
 [![Version](https://img.shields.io/cocoapods/v/Debug.svg?style=flat)](http://cocoapods.org/pods/Debug)
 [![License](https://img.shields.io/cocoapods/l/Debug.svg?style=flat)](http://cocoapods.org/pods/Debug)
 [![Platform](https://img.shields.io/cocoapods/p/Debug.svg?style=flat)](http://cocoapods.org/pods/Debug)
