@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Set in your **Swift Compiler - Custom Flags -Other Flags**, only for DEBUG, a flag like `-D DEBUG`
+
 ## Installation
 
 Debug is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +24,7 @@ pod "Debug"
 
 ## Author
 
-Matteo, matteo@boostco.de
+Matteo Crippa, @ghego20
 
 ## License
 

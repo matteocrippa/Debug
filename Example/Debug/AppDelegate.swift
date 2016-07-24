@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Debug
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // just still call for print func as usual
+        // switch between Debug and Release to see it working
+        
+        Debug.print("test")
+
         return true
     }
 
