@@ -12,10 +12,10 @@ s.name             = 'Debug'
 s.summary          = 'A swift print that works only in debug mode'
 
 s.description      = <<-DESC
-A swift print that works only in debug mode
+Debug print for swift, automatically mute the print in RELEASE mode.
 DESC
 
-s.homepage         = 'https://github.com/matteocerippa/Debug'
+s.homepage         = 'https://github.com/matteocrippa/Debug'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Matteo' => '' }
 s.source           = { :git => 'https://github.com/matteocrippa/Debug.git', :tag => s.version.to_s }
