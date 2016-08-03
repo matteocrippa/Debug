@@ -14,11 +14,50 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Set in your **Swift Compiler - Custom Flags -Other Flags**, only for DEBUG, a flag like `-D DEBUG`
 
 ## Usage
-Use print function normally, but place `Debug` before.
+Import the lib using:
+
+```swift
+import Debug
+```
+
+then use print function normally, but prepend `Debug` like this:
 
 ```swift
 Debug.print('Hello world!')
 ```
+
+Debug support also remote logging, clone [Debug-Remote](https://github.com/matteocrippa/Debug-Remote) and start the server.
+
+Then add this simple (extra row) in your `AppDelegate`:
+
+```swift
+Debug.set(remoteURI: "http://")
+```
+
+Set your remote log url according the one provided by the server.
+
+*IMPORTANT* Each time you restart the server you will get a new url, pay attention in updating the url in your app before starting.
+
+Then update your `Info.plist` file adding this entry:
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+<key>NSExceptionDomains</key>
+<dict>
+<key>localtunnel.me</key>
+<dict>
+<key>NSIncludesSubdomains</key>
+<true/>
+<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+<true/>
+<key>NSTemporaryExceptionMinimumTLSVersion</key>
+<string>TLSv1.1</string>
+</dict>
+</dict>
+</dict>
+```
+
 
 ## Installation
 

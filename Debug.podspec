@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'Debug'
-s.version          = '0.1.1'
+s.version          = '0.2.0'
 s.summary          = 'A swift print that works only in debug mode'
 
 s.description      = <<-DESC
@@ -18,4 +18,5 @@ s.tvos.deployment_target = '9.0'
 
 s.source_files = 'Debug/Classes/**/*'
 
+s.dependency 'AlamofireRouter', '~> 0.1'
 end
