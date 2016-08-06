@@ -47,7 +47,7 @@ enum DebugAPI: RouterProtocol {
         switch self {
             
         case .console(let log):
-            return router.endPoint(path: "/", method: .POST, parameters: ["log":log])
+            return router.endPoint(path: "/", method: .POST, parameters: ["log": log])
             
         }
         
