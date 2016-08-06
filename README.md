@@ -9,9 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Troubleshooting
 
-Set in your **Swift Compiler - Custom Flags -Other Flags**, only for DEBUG, a flag like `-D DEBUG`
+If you are ain debug mode and logs aren't shown, set in your **Swift Compiler - Custom Flags -Other Flags**, only for DEBUG, a flag like `-DDEBUG`
 
 ## Usage
 Import the lib using:
