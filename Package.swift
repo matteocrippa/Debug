@@ -17,5 +17,5 @@
 import PackageDescription
 
 let package = Package(
-    name: "Daebug"
+    name: "Debug"
 )
