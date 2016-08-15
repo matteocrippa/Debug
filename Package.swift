@@ -17,5 +17,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "Debug"
+    name: "Debug",
+    exclude: ["Example", "_Pods.xcodeproj"]
 )
