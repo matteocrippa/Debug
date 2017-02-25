@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'Debug'
-s.version          = '0.2.1'
+s.version          = '0.3'
 s.summary          = 'A swift print that works only in debug mode'
 
 s.description      = <<-DESC
@@ -13,7 +13,7 @@ s.author           = { 'Matteo Crippa' => '' }
 s.source           = { :git => 'https://github.com/matteocrippa/Debug.git', :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/ghego20'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 s.tvos.deployment_target = '9.0'
 
 s.source_files = 'Debug/Classes/**/*'
