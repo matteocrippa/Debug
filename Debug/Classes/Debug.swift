@@ -6,7 +6,6 @@
 //  Copyright © 2016 Matteo Crippa. All rights reserved.
 //
 
-import Alamofire
 import AlamofireRouter
 import Foundation
 
@@ -42,12 +41,12 @@ enum DebugAPI: RouterProtocol {
     
     var router: Router { return Router(baseURL: debugRemoteURI ) }
     
-    var URLRequest: NSMutableURLRequest {
+    public func asURLRequest() throws -> URLRequest {
         
         switch self {
             
         case .console(let log):
-            return router.endPoint(path: "/", method: .POST, parameters: ["log": log])
+            return router.endPoint(path: "/", method: .post, parameters: [ "log": log ])
             
         }
         
