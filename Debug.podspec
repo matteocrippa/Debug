@@ -18,6 +18,6 @@ s.tvos.deployment_target = '9.0'
 
 s.source_files = 'Debug/Classes/**/*'
 
-s.dependency 'AlamofireRouter', '~> 0.1'
+s.dependency 'AlamofireRouter'
 
 end
