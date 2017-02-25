@@ -6,6 +6,7 @@
 //  Copyright © 2016 Matteo Crippa. All rights reserved.
 //
 
+import Alamofire
 import AlamofireRouter
 import Foundation
 
@@ -26,7 +27,7 @@ public class Debug {
                 Swift.print(items[idx], separator: separator, terminator: idx == (endIdx - 1) ? terminator : separator)
                 
                 if debugRemoteURI.characters.count > 0 {
-                    Alamofire.request(DebugAPI.console(log: String(items[idx])))
+                    Alamofire.request(DebugAPI.console(log: String(describing: items[idx])))
                 }
                 idx += 1
                 
