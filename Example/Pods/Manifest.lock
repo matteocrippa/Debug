@@ -1,9 +1,5 @@
 PODS:
-  - Alamofire (3.4.1)
-  - AlamofireRouter (0.1.0):
-    - Alamofire (~> 3.2)
-  - Debug (0.1.1):
-    - AlamofireRouter (~> 0.1)
+  - Debug (0.4)
 
 DEPENDENCIES:
   - Debug (from `../`)
@@ -13,10 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
-  AlamofireRouter: 750e98f8387e95604d57a6260a145d93bd19b9a7
-  Debug: c30b212da4aac5731ab4b7500850f4e49afce5a9
+  Debug: 9b08775eb26d5853da26a87ad33cba92fd9ffdd2
 
 PODFILE CHECKSUM: 99b702b79728f3da8f3c216c27bdd1cc0842ba8c
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.6.0.beta.1
